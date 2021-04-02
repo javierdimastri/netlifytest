@@ -13,7 +13,7 @@ const TodoContainer = () => {
       isCompleted: false
     },
     {
-      text: "Build really cool todo app",
+      text: "Build really cool todo with netlify",
       isCompleted: false
     }
   ]);
@@ -36,7 +36,7 @@ const TodoContainer = () => {
   };
 
   return (
-    < div
+    <div
   className = "todo-list" >
     < TodoList
   todos = {todos}
@@ -46,7 +46,7 @@ const TodoContainer = () => {
   < TodoForm
   addTodo = {addTodo}
   />
-  < /div>
+  </div>
 )
   ;
 };

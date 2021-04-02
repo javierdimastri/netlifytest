@@ -10,26 +10,24 @@ const Todo = (props) => {
     removeTodo(index);
   }
   return (
-    < div
+    <div
   className = "todo"
   style = {
   {
     textDecoration: todo.isCompleted ? "line-through" : ""
   }
-}
->
+}>
   {
     todo.text
   }
-<
-  div >
-  < Button
+<div>
+  <Button
   type = 'primary'
-  onClick = {clickComplete} > Complete < /Button>
-    < Button
-  onClick = {clickRemove} > x < /Button>
-    < /div>
-    < /div>
+  onClick = {clickComplete} > Complete </Button>
+    <Button
+  onClick = {clickRemove} > x </Button>
+    </div>
+    </div>
 )
   ;
 };

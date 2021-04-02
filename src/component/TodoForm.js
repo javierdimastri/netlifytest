@@ -17,7 +17,7 @@ const TodoForm = (props) => {
   }
 
   return (
-    < form
+    <form
   onSubmit = {handleSubmit} >
     < input
   type = "text"
@@ -25,7 +25,7 @@ const TodoForm = (props) => {
   value = {value}
   onChange = {handleChange}
   />
-  < /form>
+  </form>
 )
   ;
 };

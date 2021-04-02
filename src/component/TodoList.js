@@ -17,8 +17,7 @@ const TodoList = (props) => {
   />
 ))
 }
-<
-  /div>
+</div>
 )
   ;
 };
