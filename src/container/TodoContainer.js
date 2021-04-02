@@ -5,7 +5,7 @@ import TodoForm from "../component/TodoForm";
 const TodoContainer = () => {
   const [todos, setTodos] = useState([
     {
-      text: "Please bisa",
+      text: "Yes bisa",
       isCompleted: false
     },
     {
