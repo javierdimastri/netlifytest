@@ -5,7 +5,7 @@ import TodoForm from "../component/TodoForm";
 const TodoContainer = () => {
   const [todos, setTodos] = useState([
     {
-      text: "Learn about React connect to github",
+      text: "Please bisa",
       isCompleted: false
     },
     {
